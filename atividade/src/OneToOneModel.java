@@ -32,7 +32,7 @@ public class OneToOneModel {
             }
 
             long fim = System.currentTimeMillis();
-            System.out.println("Tempo [N:M] | [" + num[i] + "]: " + (fim - inicio) + " ms\n");
+            System.out.println("Tempo [1:1] | [" + num[i] + "]: " + (fim - inicio) + " ms\n");
         }
     }
 }
